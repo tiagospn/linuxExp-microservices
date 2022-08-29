@@ -1,9 +1,9 @@
---Cria a tabela na base de dados.
-CREATE TABLE dados (
-    AlunoID int,
-    Nome varchar(50),
-    Sobrenome varchar(50),
-    Endereco varchar(150),
-    Cidade varchar(50),
-    Host varchar(50)
+--Cria a tabela "produtos" no MySQL
+
+CREATE TABLE produtos (
+    CodID int,
+    Produto varchar(50),
+    Marca varchar(50),
+    Preco real(10),
+    Tipo varchar(50),
 );
