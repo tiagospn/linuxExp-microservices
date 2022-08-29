@@ -6,4 +6,5 @@ CREATE TABLE produtos (
     Marca varchar(50),
     Preco real(10),
     Tipo varchar(50),
+    Host varchar(50)
 );
