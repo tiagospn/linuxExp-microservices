@@ -1,3 +1,4 @@
+--Cria a tabela na base de dados.
 CREATE TABLE dados (
     AlunoID int,
     Nome varchar(50),
